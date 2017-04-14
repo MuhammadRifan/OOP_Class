@@ -37,6 +37,6 @@ class Mobil
     public function cekMobil()
     {
         $roda = $this->roda;
-        return isset($roda) ? $this -> testMobil($roda) : $this -> testMobil(0);
+        return isset($roda) ? $this->testMobil($roda) : $this->testMobil(0);
     }
 }
